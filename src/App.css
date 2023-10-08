@@ -38,7 +38,7 @@ body, h1, h2, ul, li, a {
 }
 
 .Banner h2{
-  font-size: 54px;
+  font-size: 74px;
 }
 
 .Banner h2 span{
@@ -183,3 +183,64 @@ section.Join p::selection{
 /* p::after{
   content: "...";
 } */
+
+/* Responsive */
+
+@media screen and (max-width: 1400px ) {
+  .Banner h2{
+    font-size: 55px;
+  }
+  .Main-nav li{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 900px ) {
+  .Banner h2{
+    font-size: 45px;
+  }
+  .Main-nav li{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 700px ) {
+  .Banner .Welcome{
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    left: 0;
+  }
+
+  .Banner .Welcome br{
+    display: none;
+  }
+  .Banner .Welcome h2{
+    font-size: 25px;
+  }
+  .Banner .Welcome span{
+    font-size: 1em;
+  }
+  .Images li{
+    width: 100%;
+    margin: 20px auto;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 550px ) {
+  .Main-nav li{
+    position: relative;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 12px auto;
+  }
+  .Main-nav{
+    top: 0;
+  }
+  .Header{
+    position: relative;
+  }
+}

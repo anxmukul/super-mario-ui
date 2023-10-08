@@ -14,8 +14,7 @@ function App() {
         <img src={banner} alt="Mario club banner"></img>
         <div className="Welcome">
           <h2>
-            Welcome to
-            <br />
+            Welcome to <br />
             <span>Marioclub</span>
           </h2>
         </div>
