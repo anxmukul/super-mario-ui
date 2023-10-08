@@ -244,3 +244,13 @@ section.Join p::selection{
     position: relative;
   }
 }
+
+@media screen and (max-width: 400px ) {
+  form input{
+    margin: 0, 0;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 28px;
+    border: 2px solid white;
+  }
+}
