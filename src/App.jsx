@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <header className="Header">
-        <h1>Mario Club</h1>
+        <h1>Mario Club</h1> 
       </header>
       <section className="Banner">
         <img src={banner} alt="Mario club banner"></img>
